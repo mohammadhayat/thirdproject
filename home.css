@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav ul li{
+    display: inline;
+    margin: 5px;
+    
+}
+a{
+    text-decoration: none;
+    transition: 1.5s;
+
+}
+a:hover{
+    background-color: darkgray;
+    color: white;
+}
+#log1{
+    height:80px;
+}
+#body{
+    height: 400px;
+    background: rgba(0,0,0,0.6)url(compu.webp) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    text-align: center;
+
+
+}
+h1,hr,p,h6{
+    position: relative;
+    top: 40%;
+    color: white;
+}
+h6{
+    border: 2px solid green;
+    display: inline-block;
+    padding: 2px;
+}
+hr{
+    width: 15%;
+    background-color: green;
+    height: 2px;
+    margin: 0px auto;
+}
+.simple{
+    background: rgba(0,0,0,0.2);
+    background-blend-mode: darken;
+    height: 250px;
+    text-align: center;
+    
+}
+.simple-h1{
+    color: black;
+
+}
+.simple-p{
+    width: 650px;
+    margin: 0px auto;
+    color: black;
+}
+#threediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d1,.d2,.d3{
+    width: 300px;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+
+}
+#pic-div{
+    display: flex;
+    
+}
+.pic-div2{
+    display: flex;
+   
+}
+
+.dd1,.dd2,.dd3,.dd4,.dd5,.dd6{
+    width: 350px;
+    height: 350px;
+    margin: 5px;
+
+}
+img{
+    width: 350px;
+    height: 350px;
+}
+.fa-solid{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    color: white;
+    
+
+}
+.icon{
+    width: 50px;
+    height:50px;
+    background-color: rgb(30, 115, 234);
+    justify-content: center;
+    position: relative;
+    left: 130px;
+}
+h3,h5{
+    text-align: center;
+    margin: 30px;
+
+}
+#form-div{
+    background:rgba(0,0,0,0.8) url('p8.jpg') fixed center;
+    background-blend-mode: darken;
+    background-size: cover;
+   
+}
+.form,.form1{
+    width:300px;
+    height: 50px;
+    border: 2px solid rgb(214, 211, 211);
+    position: relative;
+    left: 40%;
+    top: 20px;
+
+}
+.form2{
+    width: 300px;
+    height: 100px;
+    border: 2px solid  rgb(214, 211, 211);
+    position: relative;
+    left: 40%;
+    top: 20px;
+    
+}
+.h2,.p1{
+    position: relative;
+    left: 45%;
+    top: 25px;
+    color: white;
+    margin: 10px 0px;
+}
+input,label{
+    position: relative;
+    left: 39%;
+    top: 20px;
+    margin: 10px;
+    color: white;
+}
+.b{
+    position: relative;
+    left: 62%;
+    bottom: 10px;
+    padding: 10px;
+    border: 1px solid rgb(38, 102, 229);
+    color: rgb(38, 102, 229);
+    display: inline-block;
+
+}
+
+
